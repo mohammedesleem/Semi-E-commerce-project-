@@ -1,0 +1,26 @@
+footer {
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 300px;
+
+
+}
+
+footer table {
+    width: 100%;
+    margin: 0px auto;
+    border-spacing: 10px;
+    text-align: center;
+}
+
+footer table tr td {
+    width: 100px;
+}
+
+footer table tr td input {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}

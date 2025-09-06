@@ -1,0 +1,520 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+main .section-one .contain {
+
+    background-color: black;
+
+}
+
+main .section-one .contain .info-phone {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main .section-one .info {
+    width: 500px;
+
+}
+
+main .section-one .info .img-iphone {
+
+    color: white;
+    display: flex;
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+main .section-one .info .img-iphone {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main .section-one .info .img-iphone img {
+    width: 40px;
+    height: 49PX;
+}
+
+main .section-one .info .Voucher {
+    width:
+        font-family;
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 48px;
+
+    line-height: 60px;
+    letter-spacing: 4%;
+    color: #FAFAFA;
+}
+
+.show {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.show p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.phone {
+    width: 250px;
+    height: 250px;
+
+
+
+    background-image: url(../image/phone.png);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.circles {
+    width: 250px;
+    display: flex;
+    gap: 10px;
+
+    margin: 0px auto;
+
+}
+
+.circles .circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 0px solid;
+
+
+
+}
+
+.circles .circle:hover {
+    background-color: #DB4444;
+    border: 2px solid white;
+}
+
+/* end section one */
+
+/* start section today */
+.header-title .titles {
+    position: relative;
+    padding-left: 20px;
+}
+
+.header-title .titles p {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+
+    line-height: 20px;
+    letter-spacing: 0%;
+
+}
+
+.header-title .titles::before {
+    content: "";
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    background-color: #DB4444;
+    border-radius: 10px;
+    left: 0px;
+
+
+
+}
+
+.title-under {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.title-under p {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 36px;
+
+    line-height: 48px;
+    letter-spacing: 4%;
+}
+
+.oclock table {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+
+    line-height: 30px;
+    letter-spacing: 4%;
+}
+
+.oclock table tr td {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.oclock table tr:nth-child(1) {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+
+    line-height: 18px;
+    letter-spacing: 0%;
+}
+
+.title-under i {
+
+    padding: 20px;
+
+
+    left: 3.5px;
+
+    opacity: 1;
+    border-width: 1.5px;
+    background-color: #c8c5c5;
+    border-radius: 50%;
+
+}
+
+.Today .cards,
+.Selling .cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Today .cards .card,
+.Selling .cards .card {
+    padding: 10px;
+}
+
+.image {
+    padding: 10px;
+
+
+    background-color: #F5F5F5;
+    background-size: contain;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.image img {
+    width: 80%;
+    height: 80%;
+}
+
+.Today .cards .card .image:hover::before,
+.Selling .cards .card .image:hover::before {
+    content: "Add To Cart";
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    color: white;
+    background-color: black;
+    bottom: 0px;
+    left: 0px;
+
+    text-align: center;
+}
+
+.Today .info-card:nth-child(1) {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.Today .info-card p:nth-child(2) {
+    margin: 10px 0px;
+    color: #DB4444;
+}
+
+.Today .info-card p:nth-child(2) span {
+    color: black;
+    -webkit-text-decoration: line-through 1px solid;
+    text-decoration: line-through 1px solid;
+}
+
+button.View {
+    margin: 30px 0px;
+    margin-left: 50%;
+    transform: translatex(-50%);
+
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    gap: 10px;
+    border: 0px solid;
+    opacity: 1;
+    background: #DB4444;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: white;
+}
+
+hr {
+    width: 100%;
+    height: 0px;
+
+
+    border: 0.5px solid black;
+
+    opacity: 0.3;
+
+}
+
+/* End section today */
+.Categories .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.Categories .cards .card {
+    width: 150px;
+    padding: 20px;
+    border: 1px solid black;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+
+.Categories .cards .card i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.Categories .cards .card:hover {
+    background-color: #DB4444;
+    color: white;
+    transform: scaleX(1.05);
+    transition: 1s;
+}
+
+.Selling .icon {
+    margin: 2px -19px 0px 95%;
+}
+
+/* end sselling */
+.declaration .contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    background-color: black;
+    color: white;
+    padding: 0px 100px;
+}
+
+.declaration .contain .Speaker {
+
+    width: 400px;
+    height: 250px;
+    background-image: url(../image/Speaker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* تجعل الصورة تغطي كامل العنصر */
+    background-position: center;
+    /* تضع الصورة بالمنتصف */
+
+
+
+
+
+}
+
+.declaration .contain .declarationinfo .title {
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    color: #00FF66;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.declaration .contain .declarationinfo p:nth-child(2) {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 48px;
+
+    line-height: 60px;
+    letter-spacing: 4%;
+}
+
+.declaration button {
+    width: 171;
+    height: 56;
+    top: 375px;
+    left: 56px;
+    background-color: #00FF66;
+    color: white;
+
+    opacity: 1;
+    border-radius: 4px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    gap: 10px;
+}
+
+/* Explore */
+.Explore .contain .cards {
+    display: grid;
+
+
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+
+}
+
+/* Featured */
+
+.Featured .Features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+    /* كل صف ارتفاعه 200px مثلاً */
+    grid-template-areas:
+        "Featured1 Featured1   Featured2 Featured2"
+        "Featured1 Featured1   Featured2 Featured2"
+        "Featured1 Featured1  Featured3  Featured4 "
+
+}
+
+.Featured .Featured1 {
+    grid-area: Featured1;
+    background: url(../image/Featured1.png) center/contain no-repeat;
+    background-color: black;
+    position: relative;
+
+}
+
+.Featured .Featured2 {
+    grid-area: Featured2;
+    background: url(../image/Featured2.jpg) center/contain no-repeat;
+    background-color: black;
+    position: relative;
+}
+
+.Featured .Featured3 {
+    grid-area: Featured3;
+    background: url(../image/Featured3.png) center/contain no-repeat;
+    background-color: black;
+    position: relative;
+}
+
+.Featured .Featured4 {
+    grid-area: Featured4;
+    background: url(../image/Featured4.png) center/contain no-repeat;
+    background-color: black;
+    position: relative;
+}
+
+.info-features {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 200px;
+}
+
+.info-features p:nth-child(1) {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 24px;
+
+
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+.info-features p:nth-child(2) {
+    margin: 5px 0px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+
+    line-height: 21px;
+    letter-spacing: 0%;
+}
+
+.info-features button {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 0 0;
+    border: 0px solid;
+    border-bottom: 1px solid;
+}

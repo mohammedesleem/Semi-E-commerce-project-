@@ -1,0 +1,94 @@
+.contain {
+    padding: 30px 80px;
+    margin: 20px 100px;
+
+
+
+}
+
+header .contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+
+}
+
+header .logo {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+header nav {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+header nav a:hover {
+    -webkit-text-decoration: dashed;
+    text-decoration: underline 1px solid black;
+    text-underline-offset: 10px;
+
+}
+
+header .search {
+
+
+    gap: 10px;
+
+
+
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+header .inputsearch {
+    background-color: #F5F5F5;
+    opacity: 1;
+    border-radius: 4px;
+    padding: 7px 12px 7px 20px;
+}
+
+header .search .icon {
+    background-color: white;
+    height: 100%;
+}
+
+header hr {
+    width: 1440;
+    height: 0px;
+
+    opacity: 0.3;
+    border-width: 0.5px;
+    border: 0.5px solid #000000
+}
