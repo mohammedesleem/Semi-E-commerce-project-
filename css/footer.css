@@ -1,8 +1,8 @@
-footer {
+/* footer {
     background-color: black;
     width: 100%;
     color: white;
-    height: 300px;
+    height: 400px;
 
 
 }
@@ -23,4 +23,125 @@ footer table tr td input {
     color: white;
     border: 1px solid white;
     padding: 10px;
+}
+
+
+
+
+
+footer td img {
+    border-radius: 10px;
+    border: 1px solid;
+    width: 130px;
+    height: 75px;
+
+
+} */
+.footer {
+    background: #000;
+    padding: 20px 0px;
+
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.footer-col h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    color: #aaa;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-col .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer-col .desc {
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+}
+
+.subscribe {
+    display: flex;
+    border: 1px solid #555;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.subscribe input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+}
+
+.subscribe button {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.store-btn {
+    display: block;
+    width: 150px;
+    margin: 8px 0;
+}
+
+.social {
+    margin-top: 15px;
+}
+
+.social a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #aaa;
+}
+
+.copyright {
+    border-top: 1px solid #333;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #777;
 }

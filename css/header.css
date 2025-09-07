@@ -1,3 +1,11 @@
+:root {
+    --color-main: #DB4444;
+    --colo-main2: white;
+    --scandery-color: #F5F5F5;
+
+    --main3-color: var(--main3-color)
+}
+
 .contain {
     padding: 30px 80px;
     margin: 20px 100px;
@@ -45,14 +53,14 @@ header nav ul li {
 }
 
 header nav a {
-    color: #000000;
+    color: var(--main3-color);
     text-decoration: none;
 
 }
 
 header nav a:hover {
     -webkit-text-decoration: dashed;
-    text-decoration: underline 1px solid black;
+    text-decoration: underline 1px solid var(--main3-color);
     text-underline-offset: 10px;
 
 }
@@ -73,14 +81,14 @@ header .search {
 }
 
 header .inputsearch {
-    background-color: #F5F5F5;
+    background-color: var(--scandery-color);
     opacity: 1;
     border-radius: 4px;
     padding: 7px 12px 7px 20px;
 }
 
-header .search .icon {
-    background-color: white;
+header .search .iconH {
+    background-color: var(--colo-main2);
     height: 100%;
 }
 
@@ -91,4 +99,11 @@ header hr {
     opacity: 0.3;
     border-width: 0.5px;
     border: 0.5px solid #000000
+}
+
+header .user {
+    color: var(--colo-main2);
+    background-color: var(--color-main);
+    padding: 4px;
+    border-radius: 50%;
 }

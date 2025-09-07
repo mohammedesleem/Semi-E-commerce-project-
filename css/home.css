@@ -1,3 +1,11 @@
+:root {
+    --color-main: #DB4444;
+    --colo-main2: white;
+    --scandery-color: #F5F5F5;
+
+    --main3-color: black
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -9,7 +17,7 @@ body {
 
 main .section-one .contain {
 
-    background-color: black;
+    background-color: var(--main3-color);
 
 }
 
@@ -26,7 +34,7 @@ main .section-one .info {
 
 main .section-one .info .img-iphone {
 
-    color: white;
+    color: var(--colo-main2);
     display: flex;
     align-items: center;
 
@@ -63,7 +71,7 @@ main .section-one .info .Voucher {
 }
 
 .show {
-    color: white;
+    color: var(--colo-main2);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -79,7 +87,7 @@ main .section-one .info .Voucher {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--colo-main2);
 }
 
 .phone {
@@ -118,8 +126,8 @@ main .section-one .info .Voucher {
 }
 
 .circles .circle:hover {
-    background-color: #DB4444;
-    border: 2px solid white;
+    background-color: var(--color-main);
+    border: 2px solid var(--colo-main2);
 }
 
 /* end section one */
@@ -141,12 +149,14 @@ main .section-one .info .Voucher {
 
 }
 
+
+
 .header-title .titles::before {
     content: "";
     width: 10px;
     height: 100%;
     position: absolute;
-    background-color: #DB4444;
+    background-color: var(--color-main);
     border-radius: 10px;
     left: 0px;
 
@@ -205,7 +215,7 @@ main .section-one .info .Voucher {
 
     opacity: 1;
     border-width: 1.5px;
-    background-color: #c8c5c5;
+    background-color: var(--scandery-color);
     border-radius: 50%;
 
 }
@@ -218,6 +228,13 @@ main .section-one .info .Voucher {
     gap: 20px;
 }
 
+.icon,
+.icon {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
 .Today .cards .card,
 .Selling .cards .card {
     padding: 10px;
@@ -227,32 +244,56 @@ main .section-one .info .Voucher {
     padding: 10px;
 
 
-    background-color: #F5F5F5;
+    background-color: var(--scandery-color);
     background-size: contain;
     background-position: center;
 
     background-repeat: no-repeat;
     width: 250px;
     height: 150px;
-    display: flex;
-    justify-content: space-between;
+
     margin-bottom: 20px;
     position: relative;
 }
 
 .image img {
+    margin-top: 20px;
     width: 80%;
     height: 80%;
 }
 
-.Today .cards .card .image:hover::before,
-.Selling .cards .card .image:hover::before {
+.icon-image-title {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-start;
+    align-items: center;
+    gap: 180px;
+
+
+}
+
+.icon-image-title span {
+
+
+    opacity: 1;
+    border-radius: 4px;
+    padding: 5px;
+
+
+    background-color: var(--color-main);
+
+    color: var(--colo-main2);
+}
+
+.cards .card .image:hover::before {
     content: "Add To Cart";
     width: 100%;
     padding: 10px;
     position: absolute;
-    color: white;
-    background-color: black;
+    color: var(--colo-main2);
+    background-color: var(--main3-color);
     bottom: 0px;
     left: 0px;
 
@@ -271,11 +312,11 @@ main .section-one .info .Voucher {
 
 .Today .info-card p:nth-child(2) {
     margin: 10px 0px;
-    color: #DB4444;
+    color: var(--color-main);
 }
 
 .Today .info-card p:nth-child(2) span {
-    color: black;
+    color: var(--main3-color);
     -webkit-text-decoration: line-through 1px solid;
     text-decoration: line-through 1px solid;
 }
@@ -293,7 +334,7 @@ button.View {
     gap: 10px;
     border: 0px solid;
     opacity: 1;
-    background: #DB4444;
+    background: var(--color-main);
     font-family: Poppins;
     font-weight: 500;
     font-style: Medium;
@@ -301,7 +342,7 @@ button.View {
 
     line-height: 24px;
     letter-spacing: 0%;
-    color: white;
+    color: var(--colo-main2);
 }
 
 hr {
@@ -309,11 +350,22 @@ hr {
     height: 0px;
 
 
-    border: 0.5px solid black;
+    border: 0.5px solid var(--main3-color);
 
     opacity: 0.3;
 
 }
+
+.star1 i:not(.no) {
+    color: gold;
+    /* fill: gold; */
+    font-weight: 900;
+}
+
+
+
+
+
 
 /* End section today */
 .Categories .cards {
@@ -326,7 +378,7 @@ hr {
 .Categories .cards .card {
     width: 150px;
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid var(--main3-color);
     font-family: Poppins;
     font-weight: 400;
     font-style: Regular;
@@ -345,8 +397,8 @@ hr {
 }
 
 .Categories .cards .card:hover {
-    background-color: #DB4444;
-    color: white;
+    background-color: var(--color-main);
+    color: var(--colo-main2);
     transform: scaleX(1.05);
     transition: 1s;
 }
@@ -361,8 +413,8 @@ hr {
     justify-content: space-between;
     align-items: center;
     justify-items: center;
-    background-color: black;
-    color: white;
+    background-color: var(--main3-color);
+    color: var(--colo-main2);
     padding: 0px 100px;
 }
 
@@ -409,7 +461,7 @@ hr {
     top: 375px;
     left: 56px;
     background-color: #00FF66;
-    color: white;
+    color: var(--colo-main2);
 
     opacity: 1;
     border-radius: 4px;
@@ -423,12 +475,23 @@ hr {
 /* Explore */
 .Explore .contain .cards {
     display: grid;
+    margin: 20px 0px;
 
 
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
 
 }
+
+.info-card .circles .circle {
+    background-color: var(--color-main);
+}
+
+.Explore .info-card .price {
+    margin: 10px 0px;
+}
+
+
 
 /* Featured */
 
@@ -448,7 +511,7 @@ hr {
 .Featured .Featured1 {
     grid-area: Featured1;
     background: url(../image/Featured1.png) center/contain no-repeat;
-    background-color: black;
+    background-color: var(--main3-color);
     position: relative;
 
 }
@@ -456,26 +519,26 @@ hr {
 .Featured .Featured2 {
     grid-area: Featured2;
     background: url(../image/Featured2.jpg) center/contain no-repeat;
-    background-color: black;
+    background-color: var(--main3-color);
     position: relative;
 }
 
 .Featured .Featured3 {
     grid-area: Featured3;
     background: url(../image/Featured3.png) center/contain no-repeat;
-    background-color: black;
+    background-color: var(--main3-color);
     position: relative;
 }
 
 .Featured .Featured4 {
     grid-area: Featured4;
     background: url(../image/Featured4.png) center/contain no-repeat;
-    background-color: black;
+    background-color: var(--main3-color);
     position: relative;
 }
 
 .info-features {
-    color: white;
+    color: var(--colo-main2);
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -513,7 +576,7 @@ hr {
     line-height: 24px;
     letter-spacing: 0%;
     background-color: transparent;
-    color: white;
+    color: var(--colo-main2);
     box-shadow: 0 0 0 0;
     border: 0px solid;
     border-bottom: 1px solid;

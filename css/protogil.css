@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color-main: #DB4444;
+    --colo-main2: white;
+    --scandery-color: #F5F5F5;
+
+    --main3-color: var(--main3-color)
+}
+
+section {
+    margin: 100px 0px;
+}
+
+section .contain {
+    width: 600px;
+    margin: 0px auto;
+    padding: 0px;
+
+
+}
+
+.title {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: var(--color-main);
+}
+
+section label {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+section input {
+    background-color: var(--scandery-color);
+    border: 0px solid;
+    width: 250px;
+    padding: 10px;
+
+}
+
+.name,
+.adrEmail {
+    display: flex;
+    gap: 40px;
+
+
+}
+
+section form label {
+    display: block;
+    margin: 20px 0px;
+
+}
+
+.pass {
+    width: 100%;
+}
+
+.pass input {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+form {
+    position: relative;
+}
+
+.button {
+
+
+    position: absolute;
+    right: 0px;
+    padding: 20px 0px;
+
+
+}
+
+.save {
+    width: 214;
+    height: 56;
+    border-radius: 4px;
+    color: var(--colo-main2);
+    background-color: var(--color-main);
+    border: 0px solid;
+
+    opacity: 1;
+    gap: 10px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.cancel {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+    border: 0px;
+    background-color: transparent;
+}
