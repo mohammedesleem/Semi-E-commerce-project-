@@ -58,9 +58,12 @@ header nav a {
 
 }
 
-header nav a:hover {
-    -webkit-text-decoration: dashed;
-    text-decoration: underline 1px solid var(--main3-color);
+
+
+
+header nav a .active {
+    -webkit-text-decoration: underline 1px solid;
+    text-decoration: underline 1px solid;
     text-underline-offset: 10px;
 
 }
