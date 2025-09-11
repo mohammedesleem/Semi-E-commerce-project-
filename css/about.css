@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color-main: #DB4444;
+    --colo-main2: white;
+    --scandery-color: #F5F5F5;
+
+    --main3-color: #000000;
+}
+
+.section1 .contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.section1 .infoSec1 {
+    width: 500px;
+
+    top: 422px;
+    left: 135px;
+
+    opacity: 1;
+    gap: 40px;
+}
+
+.section1 .infoSec1 p:nth-child(1) {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 54px;
+
+    line-height: 64px;
+    letter-spacing: 6%;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.section1 .infoSec1 p:nth-child(2),
+.section1 .infoSec1 p:nth-child(3) {
+    margin: 10px 0px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+.section1 .image {
+    background-image: url(../image/aboutsec1.jpg);
+    width: 500px;
+    height: 500px;
+
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.cards .contain {
+    display: flex;
+    gap: 15px;
+}
+
+.cards .contain .card {
+    text-align: center;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.cards .contain .card i {
+    color: var(--colo-main2);
+    background-color: var(--main3-color);
+    padding: 20px;
+    font-size: 40px;
+    border: 10px solid var(--scandery-color);
+    border-radius: 50%;
+}
+
+.cards .contain .card p:nth-child(1) {
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+
+    line-height: 30px;
+    letter-spacing: 4%;
+    margin: 10px 0px;
+}
+
+.cards .contain .card p:nth-child(2) {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.cards .contain .card:hover {
+    background-color: var(--color-main);
+    color: var(--colo-main2);
+}
+
+.cards .contain .card:hover i {
+    color: var(--main3-color);
+    background-color: var(--colo-main2);
+    padding: 20px;
+    font-size: 40px;
+    border: 10px solid var(--scandery-color);
+    border-radius: 50%;
+}
+
+.huoman .contain {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.huoman .contain .card .image {
+    background-color: var(--scandery-color);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.huoman .contain .card .image img {
+    margin-top: 60px;
+    width: 80%;
+    height: 80%;
+}
+
+.huoman .contain .card .info p:nth-child(1) {
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+
+    line-height: 30px;
+    letter-spacing: 4%;
+    margin-bottom: 10px;
+}
+
+.huoman .contain .card .info p:nth-child(2) {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.huoman .contain .card .icon i {
+    margin-right: 10px;
+}
+
+.card2 .card {
+    border: 0px solid !important;
+}

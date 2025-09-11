@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --color-main: #DB4444;
+    --colo-main2: white;
+    --scandery-color: #F5F5F5;
+
+    --main3-color: var(--main3-color)
+}
+
+.contact {
+    margin: 100px 0px;
+}
+
+.contact .contain {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.infoCall {
+    width: 300px;
+
+}
+
+.infoCall hr {
+    margin-bottom: 10px;
+}
+
+.infoCall .callupp .callTitle {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.infoCall .callupp .callTitle p {
+    font-family: Poppins;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.infoCall .callupp>p {
+    margin-bottom: 10px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+
+    line-height: 21px;
+    letter-spacing: 0%;
+}
+
+.infoCall .callupp .callTitle i {
+    background-color: var(--color-main);
+    color: var(--colo-main2);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.contact .contain form input {
+    border: 0px solid;
+    background-color: var(--scandery-color);
+    padding: 10px;
+
+}
+
+.contact .contain form textarea {
+    border: 0px solid;
+    background-color: var(--scandery-color);
+    padding: 10px;
+
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    resize: none;
+
+}
+
+.contact .contain form {
+    position: relative;
+}
+
+.contact .contain form button {
+    width: 215;
+    height: 56;
+    border-radius: 4px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    background-color: var(--color-main);
+    color: var(--colo-main2);
+    position: absolute;
+    right: -12px;
+    margin-top: 10px;
+
+}

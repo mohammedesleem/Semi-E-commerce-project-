@@ -61,11 +61,17 @@ header nav a {
 
 
 
-header nav a .active {
+header nav a:hover {
     -webkit-text-decoration: underline 1px solid;
     text-decoration: underline 1px solid;
     text-underline-offset: 10px;
 
+}
+
+.active {
+    -webkit-text-decoration: underline 1px solid;
+    text-decoration: underline 1px solid;
+    text-underline-offset: 10px;
 }
 
 header .search {
